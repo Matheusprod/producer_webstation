@@ -1,9 +1,14 @@
 body{
-    background-color: black;
+    background-color: whitesmoke;
     border: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
     text-align: center;
     color: red;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: "BBH Sans Bogle", sans-serif;
 }
