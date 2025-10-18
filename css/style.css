@@ -1,8 +1,8 @@
 body{
-    background-color: whitesmoke;
+    background-color: white;
     border: 10px;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
 }
 
 h1{
@@ -11,4 +11,24 @@ h1{
     margin-bottom: 50px;
     margin-top: 50px;
     font-family: "BBH Sans Bogle", sans-serif;
+}
+
+.banner-carousel {
+  width: 100%;
+  max-width: 1200px; /* deixa o banner centralizado e com limite de largura */
+  margin: 0 auto; /* centraliza horizontalmente */
+  border-radius: 15px; /* bordas arredondadas como no site */
+  overflow: hidden; /* corta o excesso das imagens nas bordas */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); /* sombra leve para destaque */
+}
+
+.banner-carousel .carousel-item {
+  height: 380px; /* altura parecida com o banner da ProducerGrind */
+}
+
+.banner-carousel .banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center;
 }
