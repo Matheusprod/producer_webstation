@@ -101,6 +101,19 @@ iframe {
   box-shadow: 1px 1px 3px rgb(179, 179, 179);
 }
 
-mark{
+mark {
   background-color: red;
+}
+
+.linha {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  margin: 20px 0;
+}
+
+.section2 {
+  background-color: rgb(116, 116, 116);
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
 }
